@@ -1,0 +1,86 @@
+export const posts = [
+  {
+    id: '1',
+    avatar: require('../assets/images/avatar.png'),
+    name: 'Volodymyr Boiarinov',
+    location: 'Portugal',
+    time: 'August 13, 11:09 AM',
+    title: 'Digital nomad visa in Portugal - my experience as a web developer',
+    content:
+      'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
+    images: [
+      require('../assets/images/Photo.png'),
+      require('../assets/images/Photo.png'),
+    ],
+    likes: 78,
+    comments: 4,
+    likesAvatar: [
+      require('../assets/images/avatar_1.png'),
+      require('../assets/images/avatar_2.png'),
+      require('../assets/images/avatar_3.png'),
+    ],
+    locationIcon: require('../assets/images/location.png'),
+  },
+  {
+    id: '2',
+    avatar: require('../assets/images/avatar.png'),
+    name: 'Volodymyr Boiarinov',
+    location: 'Portugal',
+    time: 'August 13, 11:09 AM',
+    title: 'Digital nomad visa in Portugal - my experience as a web developer',
+    content:
+      'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
+    likes: 78,
+    comments: 0,
+    likesAvatar: [
+      require('../assets/images/avatar_1.png'),
+      require('../assets/images/avatar_2.png'),
+      require('../assets/images/avatar_3.png'),
+    ],
+    locationIcon: require('../assets/images/location.png'),
+  },
+  {
+    id: '3',
+    avatar: require('../assets/images/avatar.png'),
+    name: 'Volodymyr Boiarinov',
+    location: 'Portugal',
+    time: 'August 13, 11:09 AM',
+    title: 'Check out new article',
+    content: 'It’s about Portugal!',
+    likes: 78,
+    comments: 0,
+    likesAvatar: [
+      require('../assets/images/avatar_1.png'),
+      require('../assets/images/avatar_2.png'),
+      require('../assets/images/avatar_3.png'),
+    ],
+    locationIcon: require('../assets/images/location.png'),
+    urlAttachment: 'https://citizenremote.com/',
+  },
+  {
+    id: '4',
+    avatar: require('../assets/images/avatar.png'),
+    name: 'Volodymyr Boiarinov',
+    location: 'Portugal',
+    time: 'August 13, 11:09 AM',
+    title: 'McDonalds',
+    content: 'Let’s talk about burgers',
+    poll: {
+      question: "What's the best burger in McDonalds?",
+      options: [
+        {text: 'Cheeseburger', votes: 35},
+        {text: 'Big Mac', votes: 20},
+        {text: 'Other', votes: 30},
+      ],
+    },
+    likes: 78,
+    comments: 0,
+    likesAvatar: [
+      require('../assets/images/avatar_1.png'),
+      require('../assets/images/avatar_2.png'),
+      require('../assets/images/avatar_3.png'),
+    ],
+    locationIcon: require('../assets/images/location.png'),
+  },
+  // Additional post data
+];
